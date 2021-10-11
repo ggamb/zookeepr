@@ -3,7 +3,7 @@ const express = require('express');
 const PORT = process.env.PORT || 80;
 const app = express();
 
-const { animals } = require('./data/animals');
+const { animals } = require('./data/animals.json');
 
 
 function filterByQuery(query, animalsArray) {
